@@ -96,7 +96,7 @@ while is_game_playing :
     # ai가 생성하는 난수의 범위를 리소스로 관리해서 외부에 적용하도록 대비
     import random
     ai_create_num_min = 1
-    ai_create_num_max = 100
+    ai_create_num_max = 80
     ai_number = random.randint(ai_create_num_min,ai_create_num_max)
     print(f'step 4완료, AI의 생성값={ai_number}')
 
